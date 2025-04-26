@@ -36,4 +36,14 @@
   #portfolio-8{
     background-image: url('../img/portfolio8.jpg');
   }
+
+  .portfolio img {
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .portfolio img:hover {
+    transform: scale(1.05);
+  }
+  
   
